@@ -7,7 +7,7 @@ import { NaoEncontradoComponent } from './nao-encontrado/nao-encontrado.componen
 
 const routes: Routes = [
 
-{path: 'sobre/..id' , component: SobreComponent},
+{path: 'sobre/:id' , component: SobreComponent},
 {path: 'home', component: HomeComponent},
 {path: '' , redirectTo:'/home', pathMatch:'full'},
 {path: 'login' , component: LoginComponent},
